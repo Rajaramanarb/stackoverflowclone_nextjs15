@@ -1,9 +1,7 @@
-import React from 'react'
+const Home = () => (
+  <h1 className="text-3xl font-black text-white">
+    Welcome to the world of Next.js
+  </h1>
+);
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
-}
-
-export default page
+export default Home;
