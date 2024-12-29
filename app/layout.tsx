@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
-import localFont from "next/font/local";
 import React from "react";
 
+import { auth } from "@/auth";
 import { Toaster } from "@/components/ui/toaster";
 
-import { auth } from "@/auth";
 import "./globals.css";
 
 const inter = localFont({
